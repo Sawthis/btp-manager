@@ -1,0 +1,9 @@
+module-name: btp-manager
+protecode:
+  - eu.gcr.io/kyma-project/tpi/k8s-tools:v20230110-ce11007d
+  - eu.gcr.io/kyma-project/external/alpine:3.17.1
+whitesource:
+  language: golang-mod
+  subprojects: true
+  exclude:
+    - "**/examples/**"
